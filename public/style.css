@@ -10,6 +10,7 @@ body{
     position: absolute;
     background-color: transparent;
     background: url('https://source.unsplash.com/random') no-repeat top center fixed;
+    background-position:50% 50%;
     opacity: 0.8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,23 +20,24 @@ body{
 
 
 .header {
-    max-width: 40%;
-    max-height: 50%;
-    padding: 10% 35% 0% 41%;
+    position:fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
     float: left;
     margin-bottom: 10px;
 }
-.header img{
-    height: 96%;
-    width: 65%;
-}
+
 .content {
-    width: 100%;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:30px;
     margin-bottom: 30px;
     float: left;
 }
 h3{
-    padding-left:31%;
     font-size: 30px;
 }
 
